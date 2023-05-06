@@ -1,9 +1,52 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-Medium.ttf");
+    font-weight: medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-MediumItalic.ttf");
+    font-weight: medium;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+    font-family: "Ubuntu", sans-serif;
     height: 100vh;
     margin: 0;
     display: grid;
     grid-template-columns: 296px 1fr;
     grid-template-rows: 137px 1fr;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .sidebar {
