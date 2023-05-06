@@ -1,7 +1,25 @@
 body {
+    height: 100vh;
+    margin: 0;
     display: grid;
+    grid-template-columns: 296px 1fr;
+    grid-template-rows: 137px 1fr;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: burlywood;
 }
 
 .header {
-    background-color: pink;   
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: pink;
+}
+
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: aquamarine;
 }
