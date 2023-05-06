@@ -9,7 +9,9 @@ body {
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-color: burlywood;
+    background-color: #51344D;
+    display: grid;
+    grid-template-rows: 137px repeat(5, 71px) auto repeat(2, 71px);
 }
 
 .header {
