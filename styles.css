@@ -54,7 +54,32 @@ h1 {
     grid-row: 1 / 3;
     background-color: #51344D;
     display: grid;
-    grid-template-rows: 137px repeat(5, 71px) auto repeat(2, 71px);
+    grid-template-rows: 137px repeat(6, 71px) auto repeat(2, 71px);
+    font-size: 20px;
+    color: white;
+}
+
+.nav-header {
+    display: grid;
+}
+
+.nav-header > h1 {
+    align-self: center;
+    justify-self: center;
+}
+
+.nav-link {
+    display: grid;
+    grid-template-columns: 85px 19px 1fr;
+    align-items: center;
+}
+
+.nav-link > img {
+    justify-self: end;
+}
+
+.nav-link > p {
+    grid-column: 3 / 4;
 }
 
 .header {
