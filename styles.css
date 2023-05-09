@@ -54,7 +54,7 @@ h1 {
     grid-row: 1 / 3;
     background-color: #51344D;
     display: grid;
-    grid-template-rows: 137px repeat(6, 71px) auto repeat(2, 71px);
+    grid-template-rows: 137px repeat(6, 71px) auto repeat(2, 71px) 40px;
     font-size: 20px;
     color: white;
 }
@@ -80,6 +80,14 @@ h1 {
 
 .nav-link > p {
     grid-column: 3 / 4;
+}
+
+.nav-settings {
+    grid-row: 9 / 10;
+}
+
+.nav-support {
+    grid-row: 10 / 11;
 }
 
 .header {
