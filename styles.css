@@ -1,29 +1,29 @@
 @font-face {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu-bold";
     src: url("/fonts/Ubuntu-Bold.ttf");
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu-bold-italic";
     src: url("/fonts/Ubuntu-BoldItalic.ttf");
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu-italic";
     src: url("/fonts/Ubuntu-Italic.ttf");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu-medium";
     src: url("/fonts/Ubuntu-Medium.ttf");
     font-weight: medium;
     font-style: normal;
 }
 @font-face {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu-medium-italic";
     src: url("/fonts/Ubuntu-MediumItalic.ttf");
     font-weight: medium;
     font-style: italic;
@@ -46,7 +46,7 @@ body {
 
 h1 {
     font-size: 32px;
-    font-weight: bold;
+    font-family: "Ubuntu-bold", sans-serif;
 }
 
 .sidebar {
@@ -93,7 +93,33 @@ h1 {
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-color: pink;
+    background-color: white;
+}
+
+.upload-button {
+    all: unset;
+    border: 3px solid #51344D;
+    border-radius: 59px;
+    width: 186px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 56px 17px 113px;
+}
+
+.upload-button > img {
+    grid-column: 1 / 2;
+    justify-self: end;
+}
+
+.upload-button > p {
+    grid-column: 3 / 4;
+    justify-self: start;
+    font-family: "Ubuntu-medium", sans-serif;
+    font-size: 20px;
+    color: #51344D;
+    margin: 0;
 }
 
 .content {
