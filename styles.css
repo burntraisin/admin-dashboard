@@ -122,6 +122,21 @@ h1 {
     margin: 0;
 }
 
+.search {
+    background-color: #E4E4E4;
+    height: 60px;
+    width: auto;
+    border-radius: 59px;
+    display: grid;
+    grid-template-columns: 49px auto;
+}
+
+.search > img {
+    grid-column: 1 / 2;
+    justify-self: end;
+    align-self: center;
+}
+
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
