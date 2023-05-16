@@ -137,6 +137,13 @@ h1 {
     align-self: center;
 }
 
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url("/imgs/adelie-penguin-dylan-shaw.jpg");
+}
+
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
