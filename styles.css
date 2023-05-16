@@ -94,6 +94,26 @@ h1 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: white;
+    display: grid;
+    grid-template-columns: 55px 186px 27px auto 27px 20px 26px 60px 55px;
+    align-content: center;
+}
+
+.header-upload {
+    grid-column: 2 / 3;
+}
+
+.header-search {
+    grid-column: 4 / 5;
+}
+
+.header-notification {
+    grid-column: 6 / 7;
+    align-self: center;
+}
+
+.header-profile {
+    grid-column: 8 / 9;
 }
 
 .upload-button {
@@ -141,7 +161,7 @@ h1 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url("/imgs/adelie-penguin-dylan-shaw.jpg");
+    vertical-align: middle;
 }
 
 .content {
