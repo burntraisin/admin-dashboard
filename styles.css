@@ -167,5 +167,34 @@ h1 {
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: aquamarine;
+    background-color: #E0D8DE;
+    display: grid;
+    grid-template-columns: 55px auto 22px 330px 55px;
+}
+
+.main-content {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 330px));
+    grid-template-rows: 300px 300px;
+    gap: 22px;
+}
+
+.project {
+    width: 330px;
+    height: 300px;
+    background-color: white;
+    border-bottom: 5px solid #51344D;
+    border-radius: 10px;
+}
+
+.side-content {
+    grid-column: 4 / 5;
+}
+
+.announcements {
+    width: 330px;
+    height: 461px;
+    background-color: white;
+    border-radius: 10px;
 }
