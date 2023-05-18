@@ -175,13 +175,13 @@ h1 {
 .main-content {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 330px));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     grid-template-rows: 300px 300px;
     gap: 22px;
 }
 
 .project {
-    width: 330px;
+    width: 100%;
     height: 300px;
     background-color: white;
     border-bottom: 5px solid #51344D;
