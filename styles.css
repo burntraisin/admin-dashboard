@@ -170,10 +170,28 @@ h1 {
     background-color: #E0D8DE;
     display: grid;
     grid-template-columns: 55px auto 22px 330px 55px;
+    grid-template-rows: 100px auto;
+}
+
+.content > h2 {
+    grid-column: 2 / 3;
+    font-family: "Ubuntu-bold";
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    align-self: end;
+}
+
+.content > h3 {
+    grid-column: 4 / 5;
+    font-family: "Ubuntu-bold-italic";
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    align-self: end;
 }
 
 .main-content {
     grid-column: 2 / 3;
+    grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     grid-template-rows: 300px 300px;
@@ -190,6 +208,16 @@ h1 {
 
 .side-content {
     grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-rows: 461px 107px 196px;
+}
+
+.side-content > h3 {
+    font-family: "Ubuntu-bold-italic";
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    align-self: end;
 }
 
 .announcements {
@@ -197,4 +225,12 @@ h1 {
     height: 461px;
     background-color: white;
     border-radius: 10px;
+}
+
+.trending {
+    width: 330px;
+    height: 196px;
+    background-color: white;
+    border-radius: 10px;
+    grid-row: 3 / 4;
 }
