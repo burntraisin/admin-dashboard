@@ -57,6 +57,9 @@ h1 {
     grid-template-rows: 137px repeat(6, 71px) auto repeat(2, 71px) 40px;
     font-size: 20px;
     color: white;
+    height: 100%;
+    width: 296px;
+    position: fixed;
 }
 
 .nav-header {
@@ -169,8 +172,9 @@ h1 {
     grid-row: 2 / 3;
     background-color: #E0D8DE;
     display: grid;
-    grid-template-columns: 55px auto 22px 330px 55px;
+    grid-template-columns: 55px auto 55px 330px 55px;
     grid-template-rows: 100px auto;
+    padding-bottom: 100px;
 }
 
 .content > h2 {
