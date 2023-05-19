@@ -206,6 +206,61 @@ h1 {
     border-radius: 10px;
 }
 
+h4 {
+    all: unset;
+    font-family: "Ubuntu-bold";
+    font-size: 24px;
+}
+
+.project-content {
+    padding: 32px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-content > p {
+    flex-grow: 1;
+}
+
+.project-icons {
+    align-self: flex-end;
+    display: flex;
+    column-gap: 19px;
+}
+
+.project-icons > img {
+    height: 24px;
+}
+
+h5 {
+    all: unset;
+    font-family: "Ubuntu-medium";
+    font-size: 20px;
+}
+
+.announcements-content {
+    padding: 32px;
+    height: 157px;
+}
+
+.announcements-content > p {
+    font-size: 15px;
+}
+
+a {
+    all: unset;
+    font-family: "Ubuntu-medium";
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+
+.divider {
+    border-top: 2px solid black;
+    width: 266px;
+    margin: auto;
+}
+
 .side-content {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
