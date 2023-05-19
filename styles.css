@@ -110,6 +110,7 @@ h1 {
     position: fixed;
     width: calc(100% - 296px); /* Search bar's width */
     height: 137px;
+    box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.1);
 }
 
 .header-upload {
@@ -294,6 +295,7 @@ a {
     height: 461px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0px 68px 27px rgba(28, 23, 27, 0.01), 0px 38px 23px rgba(28, 23, 27, 0.03), 0px 17px 17px rgba(28, 23, 27, 0.04), 0px 4px 9px rgba(28, 23, 27, 0.05), 0px 0px 0px rgba(28, 23, 27, 0.05);box-shadow: 0px 145px 58px rgba(28, 23, 27, 0.01), 0px 82px 49px rgba(28, 23, 27, 0.03), 0px 36px 36px rgba(28, 23, 27, 0.04), 0px 9px 20px rgba(28, 23, 27, 0.05), 0px 0px 0px rgba(28, 23, 27, 0.05);
 }
 
 .trending {
@@ -302,6 +304,7 @@ a {
     background-color: white;
     border-radius: 10px;
     grid-row: 3 / 4;
+    box-shadow: 0px 145px 58px rgba(28, 23, 27, 0.01), 0px 82px 49px rgba(28, 23, 27, 0.03), 0px 36px 36px rgba(28, 23, 27, 0.04), 0px 9px 20px rgba(28, 23, 27, 0.05), 0px 0px 0px rgba(28, 23, 27, 0.05);
 }
 
 .trending-content-start {
