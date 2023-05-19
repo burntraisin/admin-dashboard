@@ -1,38 +1,26 @@
 @font-face {
     font-family: "Ubuntu-bold";
     src: url("fonts/Ubuntu-Bold.ttf");
-    font-weight: bold;
-    font-style: normal;
 }
 @font-face {
     font-family: "Ubuntu-bold-italic";
     src: url("fonts/Ubuntu-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic;
 }
 @font-face {
     font-family: "Ubuntu-italic";
     src: url("fonts/Ubuntu-Italic.ttf");
-    font-weight: normal;
-    font-style: italic;
 }
 @font-face {
     font-family: "Ubuntu-medium";
     src: url("fonts/Ubuntu-Medium.ttf");
-    font-weight: medium;
-    font-style: normal;
 }
 @font-face {
     font-family: "Ubuntu-medium-italic";
     src: url("fonts/Ubuntu-MediumItalic.ttf");
-    font-weight: medium;
-    font-style: italic;
 }
 @font-face {
     font-family: "Ubuntu";
     src: url("fonts/Ubuntu-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
@@ -190,7 +178,7 @@ h1 {
 
 .content > h2 {
     grid-column: 2 / 3;
-    font-family: "Ubuntu-bold";
+    font-family: "Ubuntu-bold", sans-serif;
     font-size: 32px;
     margin: 0 0 20px 0;
     align-self: end;
@@ -198,7 +186,7 @@ h1 {
 
 .content > h3 {
     grid-column: 4 / 5;
-    font-family: "Ubuntu-bold-italic";
+    font-family: "Ubuntu-bold-italic", sans-serif;
     font-size: 24px;
     margin: 0 0 20px 0;
     align-self: end;
@@ -223,7 +211,7 @@ h1 {
 
 h4 {
     all: unset;
-    font-family: "Ubuntu-bold";
+    font-family: "Ubuntu-bold", sans-serif;
     font-size: 24px;
 }
 
@@ -250,7 +238,7 @@ h4 {
 
 h5 {
     all: unset;
-    font-family: "Ubuntu-medium";
+    font-family: "Ubuntu-medium", sans-serif;
     font-size: 20px;
 }
 
@@ -265,7 +253,7 @@ h5 {
 
 a {
     all: unset;
-    font-family: "Ubuntu-medium";
+    font-family: "Ubuntu-medium", sans-serif;
     font-size: 15px;
     border-bottom: 1px solid black;
 }
@@ -284,7 +272,7 @@ a {
 }
 
 .side-content > h3 {
-    font-family: "Ubuntu-bold-italic";
+    font-family: "Ubuntu-bold-italic", sans-serif;
     font-size: 24px;
     margin: 0 0 20px 0;
     align-self: end;
@@ -333,7 +321,7 @@ a {
 }
 
 .handle {
-    font-family: "Ubuntu-medium";
+    font-family: "Ubuntu-medium", sans-serif;
     font-size: 16px;
     padding-bottom: 3px;
 }
