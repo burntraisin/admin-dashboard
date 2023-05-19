@@ -40,8 +40,8 @@ body {
     height: 100vh;
     margin: 0;
     display: grid;
-    grid-template-columns: 296px 1fr;
-    grid-template-rows: 137px 1fr;
+    grid-template-columns: 296px auto;
+    grid-template-rows: 137px auto;
 }
 
 h1 {
@@ -97,9 +97,19 @@ h1 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: white;
+    display: flex;
+}
+
+.header-container {
+    background-color: white;
+    flex-grow: 1;
     display: grid;
     grid-template-columns: 55px 186px 27px auto 27px 20px 26px 60px 55px;
-    align-content: center;
+    align-items: center;
+    justify-content: stretch;
+    position: fixed;
+    width: calc(100% - 296px); /* Search bar's width */
+    height: 137px;
 }
 
 .header-upload {
