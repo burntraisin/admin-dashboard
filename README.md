@@ -2,5 +2,5 @@
 This is a dashboard for TOP's intermediate HTML and CSS Course.
 
 # What I learned
-
-# Future todos
+* Fixing elements
+* CSS grid to create a somewhat responsive layout
