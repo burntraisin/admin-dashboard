@@ -289,3 +289,34 @@ a {
     border-radius: 10px;
     grid-row: 3 / 4;
 }
+
+.trending-content-start {
+    padding: 32px 32px 16px 32px;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.trending-content-middle {
+    padding: 16px 32px 32px 32px;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.trending-text > * {
+    margin: 0;
+}
+
+.trending-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.handle {
+    font-family: "Ubuntu-medium";
+    font-size: 16px;
+    padding-bottom: 3px;
+}
